@@ -1,11 +1,11 @@
 import React from 'react';
 
-function MyShoppingCart(props) {
+function MyShoppingCart({myThings}) {
 
   return (
     <div className="MyShoppingCart">
       <h2>Your Cart!</h2>
-
+        {myThings}
     </div>
   );
 }
